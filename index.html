@@ -19,7 +19,7 @@
 
 <body class="container-xxl">
     <!-- Navbar start -->
-    <navbar>
+    <navbar class="mb-5">
 
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
@@ -48,7 +48,29 @@
                         </li>
 
                     </ul>
-                    <button class="btn btn-success p-3" type="submit">Free Consultation</button>
+                    <!-- <button class="btn btn-success p-3" type="submit"></button> -->
+                    <button type="button" class="btn btn-success p-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Free Consultation
+                      </button>
+                      
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3" id="staticBackdropLabel">Welcome to our free consultation.</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Offering free consultations can be a valuable marketing strategy, giving you a chance to connect with potential customers or clients in a personal way. In fact, free consultations can help you form valuable relationships with potential customers, build their trust in you, and even convert interested parties into paying customers.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
                 </div>
             </div>
         </nav>
@@ -60,7 +82,7 @@
     <header>
         <!-- banner start -->
 
-        <div class="card text-bg-dark ">
+        <div class="card text-bg-dark my-3 ">
             <img src=".//images//banner.png" class="card-img" alt="...">
             <div class="card-img-overlay text-center d-flex flex-column justify-content-center ">
                 <h1 class="card-title fw-bold">We Provide Effective <br> Legal Solutions</h1>
@@ -85,8 +107,7 @@
         <section class="my-5">
             <div class="text-center">
                 <h1 class="card-title fw-bold mb-4">The Legal Practice Area</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Minima porro ut excepturi alias
-                    placeat iusto earum saepe pariatur obcaecati omnis!</p>
+                <p class="mb-5">This is our legal practice house.<br> We are provided lots of services.Followings are some list of them</p>
             </div>
             <div class="row gx-3 gy-5">
 
@@ -94,9 +115,21 @@
                     <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
                     <div class="card-body">
                         <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
+                        <p class="card-text my-4">
+                            business law, also called commercial law or mercantile law, the body of rules, whether by convention, agreement, or national or international legislation, ...
+                        </p>
+                        <a href="#" class="btn">
+                            <img src='./images//Frame.png' alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="text-center col-12 col-md-6 col-lg-4 px-5">
+                    <img src="./images//criminal.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
+                    <div class="card-body">
+                        <h2 class="fw-bold mt-5">Criminal Law</h2>
+                        <p class="card-text my-4">criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties.
                         </p>
                         <a href="#" class="btn">
                             <img src='./images//Frame.png' alt="">
@@ -108,10 +141,23 @@
                 <div class="text-center col-12 col-md-6 col-lg-4 px-5">
                     <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
                     <div class="card-body">
-                        <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
+                        <h2 class="fw-bold mt-5">Child Support</h2>
+                        <p class="card-text my-4">Child support (or child maintenance) is an ongoing, periodic payment made by a parent for the financial benefit of a child (or parent, caregiver, ...
+                        </p>
+                        <a href="#" class="btn">
+                            <img src='./images//Frame.png' alt="">
+                        </a>
+                    </div>
+                    
+
+
+                </div>
+                <hr>
+                <div class="text-center col-12 col-md-6 col-lg-4 px-5">
+                    <img src="./images//education.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
+                    <div class="card-body">
+                        <h2 class="fw-bold mt-5">Education Law</h2>
+                        <p class="card-text my-4">criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties.
                         </p>
                         <a href="#" class="btn">
                             <img src='./images//Frame.png' alt="">
@@ -121,12 +167,10 @@
 
                 </div>
                 <div class="text-center col-12 col-md-6 col-lg-4 px-5">
-                    <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
+                    <img src="./images//divorce.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
                     <div class="card-body">
-                        <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
+                        <h2 class="fw-bold mt-5">Divorce Law</h2>
+                        <p class="card-text my-4">criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties.
                         </p>
                         <a href="#" class="btn">
                             <img src='./images//Frame.png' alt="">
@@ -136,42 +180,10 @@
 
                 </div>
                 <div class="text-center col-12 col-md-6 col-lg-4 px-5">
-                    <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
+                    <img src="./images//tax.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
                     <div class="card-body">
-                        <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn">
-                            <img src='./images//Frame.png' alt="">
-                        </a>
-                    </div>
-
-
-                </div>
-                <div class="text-center col-12 col-md-6 col-lg-4 px-5">
-                    <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
-                    <div class="card-body">
-                        <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
-                        </p>
-                        <a href="#" class="btn">
-                            <img src='./images//Frame.png' alt="">
-                        </a>
-                    </div>
-
-
-                </div>
-                <div class="text-center col-12 col-md-6 col-lg-4 px-5">
-                    <img src="./images//business.png" class="img-fluid " style="margin: 0 6.5rem;" alt="...">
-                    <div class="card-body">
-                        <h2 class="fw-bold mt-5">Business Law</h2>
-                        <p class="card-text my-4">Some quick example text to build <br> on the card title and make up
-                            <br> the
-                            bulk of the card's content.
+                        <h2 class="fw-bold mt-5">Tax Law</h2>
+                        <p class="card-text my-4">criminal law, the body of law that defines criminal offenses, regulates the apprehension, charging, and trial of suspected persons, and fixes penalties.
                         </p>
                         <a href="#" class="btn">
                             <img src='./images//Frame.png' alt="">
@@ -190,6 +202,11 @@
         <!-- client part start -->
 
         <section class="my-5">
+            <div class="text-center my-5">
+                <h1 class="card-title fw-bold mt-5 mb-4">What Our Client Say</h1>
+                <p class="text-secondary">This is our most beloved client about how we are treat them. <br>
+                Actuallty this is the best part of our services when client will be happy.</p>
+            </div>
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -211,14 +228,16 @@
                     <div class="carousel-item active ">
                         <img src="./images//slider-2.jpg" class="d-block w-100" height="500px" alt="...">
                         <div class="carousel-caption">
-                            <h5>First slide label</h5>
+                            <h3>Zaker Ali</h3>
+                            <p>Cricket Player</p>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item active ">
                         <img src="./images//slider-3.jpg" class="d-block w-100" height="500px" alt="...">
                         <div class="carousel-caption">
-                            <h5>First slide label</h5>
+                            <h3>Monjur Hossain</h3>
+                            <p>Doctor</p>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
@@ -378,7 +397,7 @@
     <!-- footer start -->
 
     <footer>
-        <div class="row g-5 bg-dark text-white">
+        <div class="row g-4 bg-dark text-white">
             <div class="col-6 col-lg-3">
                 <img src="./images//logo.png" alt="">
                 <p class="mt-4 fs-5">This is the justice legal house.You can find out all the laws solution here.So come
