@@ -19,6 +19,12 @@ h1 {
     filter: brightness(30%);
 }
 
+.accordion-button{
+    background-color: rgba(243, 243, 243, 1);
+    border: none;
+    font-family: 'EB Garamond', serif;
+}
+
 @media only screen and (max-width:688px) {
     .card-img-overlay h1 {
         font-size: 36px;
